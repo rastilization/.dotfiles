@@ -178,6 +178,7 @@ alias rmf='rm -rf'
 alias pls='sudo'
 alias ping='ping -c 5'
 alias grep='grep --color=auto'
+alias neofetch='clear && neofetch'
 alias clr='clear;echo "Currently logged in on $(tty), as $(whoami) in directory $(pwd)."'
 alias lpath='echo $PATH | tr ":" "\n"' # list the PATH separated by new lines
 

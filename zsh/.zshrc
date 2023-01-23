@@ -171,8 +171,10 @@ alias cp='cp -i'
 alias mv='mv -i'
 alias rm='rm -i'
 
+# Aliases for rm
 alias rmr='rm -r'
-alias rmf='rm -rf'
+alias rmf='rm -f'
+alias rmrf='rm -rf'
 
 # Helpers
 alias pls='sudo'
@@ -183,8 +185,9 @@ alias clr='clear;echo "Currently logged in on $(tty), as $(whoami) in directory 
 alias lpath='echo $PATH | tr ":" "\n"' # list the PATH separated by new lines
 
 # Useragent curl
-alias iecurl='curl -H "User-Agent: Mozilla/5.0 (Windows; U; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)"'
-alias ffcurl='curl -H "User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.8) Gecko/2009032609 Firefox/3.0.0 (.NET CLR 3.5.30729)"'
+alias curlie='curl -H "User-Agent: Mozilla/5.0 (Windows; U; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)"'
+alias curlff='curl -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:89.0) Gecko/20100101 Firefox/89.0'
+alias curlcr='curl -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36"'
 
 
 ########################################################

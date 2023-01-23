@@ -1,0 +1,21 @@
+/*******************************************************************************
+* zsh CONFIGURATION FILE
+* zsh reference https://zsh.sourceforge.io/
+* All dotfiles can be found here: http://github.com/rastilization/dotfiles
+*******************************************************************************/
+
+
+configuration{
+    modi: "run";
+    font: "SourceCodePro 12";
+    icon-theme: "Oranchelo";
+    terminal: "alacritty";
+    location: 0;
+    disable-history: false;
+    hide-scrollbar: true;
+    display-run: " run ";
+    sidebar-mode: true;
+    show-icons: false;
+}
+
+@theme "catppuccin-mocha"

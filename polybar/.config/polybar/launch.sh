@@ -5,6 +5,6 @@ killall -q polybar
 
 # Launch polybar
 echo "---" | tee -a /tmp/polybar.log
-polybar -c ~/.config/polybar/config rastibar 2>&1 | tee -a /tmp/polybar.log & disown
+polybar -c ~/.config/polybar/config whatever 2>&1 | tee -a /tmp/polybar.log & disown
 
-echo "Bar launched..."
+echo "Polybar launched..."

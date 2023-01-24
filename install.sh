@@ -47,7 +47,7 @@ bundle_zsh_plugins() {
 stow_dotfiles() {
   echo "Linking dotfiles ..."
 
-  for d in zsh scripts i3 polybar alacritty rofi;
+  for d in zsh scripts i3 polybar alacritty rofi dunst;
   do
     stow -D $d
     stow $d

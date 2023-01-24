@@ -40,7 +40,7 @@ set $right l
 ########################################################
 
 # Font
-font SourceCodePro bold 9: FontAwesome 9
+font pango: SourceCodePro bold 9
 
 # General settings
 title_align left

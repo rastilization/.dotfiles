@@ -40,7 +40,7 @@ set $right l
 ########################################################
 
 # Font
-font pango: SourceCodePro 10
+font SourceCodePro bold 9: FontAwesome 9
 
 # General settings
 title_align left
@@ -57,8 +57,11 @@ new_window pixel 2
 new_float none
 
 # Gaps settings
-gaps inner 5
-gaps outer 0
+gaps top 30
+gaps left 1
+gaps right 1
+gaps bottom 1
+gaps inner 1
 smart_gaps off
 smart_borders no_gaps
 

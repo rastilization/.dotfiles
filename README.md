@@ -38,11 +38,8 @@ page: https://github.com/catppuccin/catppuccin
 
 ### Used stuff
 - [cursors](https://github.com/catppuccin/cursors)
-- [i3](https://github.com/catppuccin/i3)
-- [polybar](https://github.com/catppuccin/polybar)
-- [nvim](https://github.com/catppuccin/nvim)
-- [rofi](https://github.com/catppuccin/rofi)
-- [dunst](https://github.com/catppuccin/dunst)
+- [gtk](https://github.com/catppuccin/gtk)
+- [firefox](https://github.com/catppuccin/firefox)
 ___
 
 ## Distro: fedora

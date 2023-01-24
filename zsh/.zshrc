@@ -152,11 +152,13 @@ extract() {
 ########################################################
 
 alias vim='nvim'
+alias dots='nvim ~/.dotfiles'
 
 # Reload zsh config
 alias reload!='RELOAD=1 source ~/.zshrc'
 
 # Filesystem aliases
+alias pd='cd -'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....="cd ../../.."

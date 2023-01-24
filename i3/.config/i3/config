@@ -91,8 +91,8 @@ bindsym $mod+Shift+$up    move up
 bindsym $mod+Shift+$right move right
 
 # Change window mode
-# bindsym $mod+h split h;exec notify-send 'tile horizontally'
-bindsym $mod+v split v;exec notify-send 'tile vertically'
+bindsym $mod+o split h;exec notify-send 'tile horizontally'
+bindsym $mod+p split v;exec notify-send 'tile vertically'
 bindsym $mod+q split toggle
 bindsym $mod+s layout stacking
 bindsym $mod+w layout tabbed

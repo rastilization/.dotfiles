@@ -49,8 +49,7 @@ stow_dotfiles() {
 
   for d in zsh scripts i3 polybar alacritty rofi dunst xresources;
   do
-    stow -D $d
-    stow $d
+    stow --restow $d
   done
 }
 
